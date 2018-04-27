@@ -1,0 +1,15 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Add local resources
+        <css src="css/my-styles.css"/>-->
+
+        <!-- The following two ways to add local JavaScript files are equal -->
+        <script src="Magento_Catalog::js/sample1.js"/>
+         <link src="js/sample.js"/>
+
+        <!-- Add external resources -->
+        <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" src_type="url" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" src_type="url" />
+
+    </head>
+</page>
